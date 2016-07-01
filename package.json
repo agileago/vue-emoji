@@ -1,8 +1,8 @@
 {
   "name": "vue-emoji",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "vue emoji filter",
-  "main": "index.js",
+  "main": "dist/vue-emoji.js",
   "scripts": {
     "dev": "webpack -p"
   },
