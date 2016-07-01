@@ -1,0 +1,19 @@
+{
+  "name": "vue-emoji",
+  "version": "0.0.1",
+  "description": "vue emoji filter",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -p"
+  },
+  "keywords": [
+    "vue",
+    "emoji"
+  ],
+  "author": "agileago@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "vue": "^1.0.26",
+    "webpack": "^1.13.1"
+  }
+}

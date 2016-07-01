@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="../node_modules/vue/dist/vue.min.js"></script>
+  <script src="../dist/vue-emoji.js"></script>
+  <style>
+    .emotion {
+      height: 1em;
+      display: inline;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <input v-model="msg" placeholder="输入emoji表情">
+    <div>{{{ msg | emoji }}}</div>
+  </div>
+  <script>
+    Vue.use(VueEmoji, { path: '../emoji/'})
+    new Vue({
+      el: '#app',
+      data: { msg: '😄' }
+    })
+  </script>
+</body>
+</html>
